@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link href="style.css" rel="stylesheet" />
 
     <title>Digital_Africa</title>
@@ -15,41 +18,113 @@
         <div class="logo">
           <img src="logo01.png" alt="" />
         </div>
-        <div class="">
-          <button class="btn-1">ENG</button>
-          <button class="btn-2">FR</button>
+        <div class="buttons">
+          <button class="btn-1" id="btn1">ENG</button>
+          <button class="btn-2" id="btn2">FR</button>
         </div>
       </div>
       <section class="one-section">
         <div class="cards">
           <div class="card-1">
-            <h1>
-              <strong>Boostez</strong> votre Start-up avec une solution
-              numérique offerte
+            <h1 class="Title">
+              <strong>Boostez</strong>
+              <span class="start"> votre Start-up avec </span>
+              <span>une solution numérique offerte</span>
             </h1>
-            <p>
+            <p class="paragraphe1">
               Vous etes une start-up participez a talent for startups By
               Digtal-Africa et beneficier d'un accompagement gratuit pour la
               réalisation de vos projets(website, application web et mobile,
               logiciel de gestions) par les apprenants de Kinshasa Digital
               Academy
             </p>
-            <button>Je postule</button>
+            <button class="btn3">
+              Je postule<i class="fa fa-long-arrow-right" id="icon1" aria-hidden="true"></i>
+</i>
+            </button>
           </div>
           <div class="card-2">
-            <img src="img1.png" alt="" />
+            <img src="img3.png" alt="" />
           </div>
         </div>
       </section>
       <section class="section-two">
         <div class="program">
-          <h2>PROGRAMME</h2>
-          <p>
+          <h2 class="programe">PROGRAMME</h2>
+          <p class="inscription">
             Voici quelques étapes à suivre pour procéder à l'inscription du
             challenge Talent 4 startup
           </p>
         </div>
       </section>
+      <section>
+        <div class="section-3">
+          <div class="cards-2">
+            <div class="box-1">
+            <div class="groupe1">
+              <img src="Group 1.png"  alt="" />
+            </div>
+            <div class="back">
+              <p>bonjour</p>
+               
+            </div>
+            </div>
+            <div>
+              <img src="Group2.png" alt="" />
+            </div>
+            <div>
+              <img src="Group 3.png" alt="" />
+            </div>
+          </div>
+          <a class="btn4" download="" href="Cv.pdf">Télécharge les Conditions<i class="fa fa-long-arrow-right" id="icon1" aria-hidden="true"></i></a>
+          <p class="paragraph2">
+            Le document ci-dessous reprend de manière intégrale les différents
+            critères de selection qui pourront déterminer si vous etes éligible
+            ou non au programme Talent4startups challenge
+          </p>
+          <div class="compteur">
+            <div>
+              <h3 class="titreCompteur">Fin des inscriptions dans</h3>
+            </div>
+            <div class="timer">
+              
+              <div class="time">
+              
+                <div class="jour-nuit">
+                <p class="heure" id="jour"></p>
+                <p class="date" id="dates">Jours</p>
+              </div>
+                <div class="pointillets">:</div>
+             </div>
+
+            
+              <div class="time">
+                <div class="jour-nuit">
+                <p class="heure" id="heure"></p>
+                <p class="date" id="heur">Heures</p>
+                </div>
+                <div class="pointillets">:</div>
+              </div>
+              <div class="time">
+                <div class="jour-nuit">
+                <p class="heure" id="minute">:</p>
+                <p class="date" id="min">Minutes</p>
+                </div>
+                  <div class="pointillets">:</div>
+              </div>
+              <div class="time">
+                <div class="jour-nuit">
+                <p class="heure" id="seconde">:</p>
+                <p class="date" id="seco">Secondes</p>
+                </div>
+                
+            </div>
+          </div>
+          
+        </div>
+      </section>
     </div>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
